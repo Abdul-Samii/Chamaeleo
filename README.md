@@ -1,3 +1,25 @@
+<span style="font-size: 24px;">Chamaeleo Mobile App</span>
+<span style="font-size: 20px;">Description</span>
+
+<span style="font-size: 16px;">API Call from the Home Screen</span>
+
+On the home screen, data for cards in the popular section is fetched from the API.
+Clicking on a card navigates to the details screen, where the data is displayed.
+Details are passed as props from the home screen to the details screen.
+
+<span style="font-size: 16px;">Custom API</span>
+A simple Node.js API was created and deployed on **AWS Lambda**.
+The API is used in the mobile app for testing.
+
+<span style="font-size: 16px;">Images</span>
+![Home](https://federalbench.s3.ap-south-1.amazonaws.com/eventHome.png)
+![Detail](https://federalbench.s3.ap-south-1.amazonaws.com/EventDetails.png)
+
+<span style="font-size: 16px;">Video</span>
+[![video](https://federalbench.s3.ap-south-1.amazonaws.com/eventHome.png)](https://drive.google.com/file/d/1G-3Sqv3u7XjWMg7JVnE4mfvOuanFN7Pi/view?usp=sharing)
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
@@ -27,6 +49,7 @@ Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _roo
 ```bash
 # using npm
 npm run android
+
 
 # OR using Yarn
 yarn android
