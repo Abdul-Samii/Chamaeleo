@@ -1,21 +1,23 @@
-<span style="font-size: 24px;">Chamaeleo Mobile App</span>
-<span style="font-size: 20px;">Description</span>
+# Chamaeleo Mobile App
+## Description
 
-<span style="font-size: 16px;">API Call from the Home Screen</span>
+### API Call from the Home Screen
 
 On the home screen, data for cards in the popular section is fetched from the API.
 Clicking on a card navigates to the details screen, where the data is displayed.
 Details are passed as props from the home screen to the details screen.
 
-<span style="font-size: 16px;">Custom API</span>
+### Custom API
 A simple Node.js API was created and deployed on **AWS Lambda**.
 The API is used in the mobile app for testing.
 
-<span style="font-size: 16px;">Images</span>
+### Images
 ![Home](https://federalbench.s3.ap-south-1.amazonaws.com/eventHome.png)
 ![Detail](https://federalbench.s3.ap-south-1.amazonaws.com/EventDetails.png)
 
-<span style="font-size: 16px;">Video</span>
+### Video
+#### Click to Watch the Video
+
 [![video](https://federalbench.s3.ap-south-1.amazonaws.com/eventHome.png)](https://drive.google.com/file/d/1G-3Sqv3u7XjWMg7JVnE4mfvOuanFN7Pi/view?usp=sharing)
 
 
